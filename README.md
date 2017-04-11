@@ -1,5 +1,5 @@
-<h1>entertainment_center: A website to display your favorite movies</h1>
-<p>entertainment_center is a python application that allows the you store information about your favorite movies. The movies will then be displayed on an html page using the movie posters. The trailers for the movies will be shown when a movie poster is clicked.</p>
+<h1>Entertainment_center: A website to display your favorite movies</h1>
+<p>Entertainment_center is a python application that allows the you store information about your favorite movies. The movies will then be displayed on an html page using the movie posters. The trailers for the movies will be shown when a movie poster is clicked.</p>
 
 <h3>Install/Usage</h3>
 <ul>
