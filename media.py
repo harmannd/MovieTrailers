@@ -14,6 +14,12 @@ class Movie():
             poster_image (str): URL link to image of movie poster.
             trailer_youtube (str): URL link to movie trailer on youtube.
             
+        Attributes:
+            title (str): Title of movie.
+            storyline (str): Brief description of movie plot.
+            poster_image_url (str): URL link to image of movie poster.
+            trailer_youtubne_url (str): URL link to movie trailer on youtube.
+            
         """
         self.title = movie_title
         self.storyline = movie_storyline
@@ -21,5 +27,10 @@ class Movie():
         self.trailer_youtube_url = trailer_youtube
 
     def show_trailer(self):
-        """ Opens a browser window to the URL specificed."""        
+        """ Opens a browser window to the URL specificed.
+
+        Returns:
+            bool: True is successful, False otherwise.
+            
+        """       
         webbrowser.open(self.trailer_youtube_url)
